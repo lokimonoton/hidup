@@ -1,0 +1,15 @@
+node panda.js
+for (( ; ; ))
+do
+var=$((var+1))
+panda=$((panda+20))
+
+echo $panda
+   node lakim.js
+   if [ "$panda" == "1800" ]; then
+   echo "masuk puppeteer"
+      node panda.js
+  fi
+   echo "tunggu 20 detik"
+   sleep 20
+done
